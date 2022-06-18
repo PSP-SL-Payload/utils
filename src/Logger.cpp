@@ -1,6 +1,5 @@
 #include "Logger.h"
 
-
 void Logger::Print(char* string, LogLevel logLevel = LOG_INFO, const LogTimeStruct* timeToLog = nullptr, bool shouldHaveNewLine = true)
 {
     // if a time was supplied, log it out in front
